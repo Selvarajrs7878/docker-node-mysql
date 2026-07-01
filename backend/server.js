@@ -22,7 +22,6 @@ db.connect((err) => {
 });
 
 app.get("/", (req, res) => {
-   // res.send("Node + MySQL + Docker Works");
     res.send("Deployed by Jenkins CI/CD Pipeline");
 });
 
